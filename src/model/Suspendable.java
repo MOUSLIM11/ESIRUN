@@ -1,0 +1,9 @@
+package model;
+public interface Suspendable {
+    
+    void suspendre();
+    void reactiver();
+    public boolean estSuspendu();
+    public String getEtat(); // retourne "suspendu" ou bien "actif"
+    
+}

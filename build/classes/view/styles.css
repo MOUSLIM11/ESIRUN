@@ -1,0 +1,177 @@
+/* Root styling */
+.root {
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f5f5f7;
+}
+
+/* Main container styling */
+.main-container {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 5);
+}
+
+/* Welcome section styling */
+.welcome-section {
+    -fx-background-color: #3a7ca5;
+    -fx-padding: 40px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.welcome-header {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.welcome-subtitle {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+/* Header container styling */
+.header-container {
+    -fx-background-color: #f0f0f2;
+    -fx-background-radius: 6px;
+}
+
+.main-header {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Section styling */
+.section-container {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 8, 0, 0, 3);
+}
+
+.section-header {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.header-separator {
+    -fx-background-color: #dddddd;
+    -fx-opacity: 0.8;
+}
+
+/* Button styling */
+.menu-button {
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 4, 0, 0, 2);
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.menu-button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0, 0, 4);
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.menu-button:pressed {
+    -fx-scale-x: 0.98;
+    -fx-scale-y: 0.98;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 2, 0, 0, 1);
+}
+
+/* Display button styling */
+.display-button {
+    -fx-background-color: #4e85b9;
+    -fx-text-fill: white;
+}
+
+.display-button:hover {
+    -fx-background-color: #3a7ca5;
+}
+
+/* Add button styling */
+.add-button {
+    -fx-background-color: #5cb85c;
+    -fx-text-fill: white;
+}
+
+.add-button:hover {
+    -fx-background-color: #4cae4c;
+}
+
+/* Validation button styling */
+.validate-button {
+    -fx-background-color: #f0ad4e;
+    -fx-text-fill: white;
+}
+
+.validate-button:hover {
+    -fx-background-color: #eea236;
+}
+
+/* Section-specific styling */
+.display-section {
+    -fx-border-color: #4e85b9;
+    -fx-border-width: 0 0 0 5px;
+}
+
+.add-section {
+    -fx-border-color: #5cb85c;
+    -fx-border-width: 0 0 0 5px;
+}
+
+.validation-section {
+    -fx-border-color: #f0ad4e;
+    -fx-border-width: 0 0 0 5px;
+}
+
+/* ScrollPane styling */
+.elegant-scroll {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.elegant-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.elegant-scroll .scroll-bar:vertical {
+    -fx-background-color: transparent;
+    -fx-pref-width: 12;
+}
+
+.elegant-scroll .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0;
+}
+
+.elegant-scroll .scroll-bar:vertical .thumb {
+    -fx-background-color: #cdcdcd;
+    -fx-background-radius: 6px;
+}
+
+.elegant-scroll .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #b0b0b0;
+}
+
+.elegant-scroll .scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: #9e9e9e;
+}
+
+/* Responsive layout */
+.responsive-container {
+    -fx-alignment: center;
+    -fx-spacing: 30;
+}
+
+.button-column {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+}
